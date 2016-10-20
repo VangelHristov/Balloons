@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Balloons</title>
+    <script src="bower_components/KineticJS/kinetic.min.js"></script>
+    <link rel="stylesheet" href="balloons-styles.css" property="">
+</head>
+<body>
+<audio id="intro" autoplay src="audio/intro.mp3"></audio>
+<audio id="theme" loop src="audio/theme.mp3"></audio>
+<audio id="shot" src="audio/shot.wav"></audio>
+<audio id="pickCoin" src="audio/pick-coin.wav"></audio>
+<audio id="outro" src="audio/outro.mp3"></audio>
+<form id="player-info">
+    <label for="input" id="label">Enter player name:</label>
+    <input type="text" id="input">
+    <input type="submit" id="ready" value="Ready!" >
+</form>
+<form id="new-game">
+    <input class="hidden" id="reload" type="submit" value="New game">
+</form>
+
+<div id="balloons-container"></div>
+<script src="balloons-script.js"></script>
+</body>
+</html>
