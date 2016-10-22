@@ -94,15 +94,13 @@
             currentBalloon.setY(oldY + currentBalloon.deltaY * currentBalloon.verticalOffset);
         }
 
-        function updateShotPosition(rect) {
-            var currentY = rect.getY(),
+        function updateShotPosition(shot) {
+            var currentY = shot.getY(),
                 offset = 10,
                 newY = currentY - offset;
-            if (rect !== player) {
-                rect.setY(newY);
-            }
+           
             if (newY <= 0) {
-                rect.remove();
+                shot.remove();
             }
         }
 
