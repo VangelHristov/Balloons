@@ -3,7 +3,7 @@ body, html {
     height: 100%;
     padding: 0;
     margin: 0;
-    background: url('images/sky.PNG') repeat;
+    background: url('../../dist/images/sky.png') repeat;
 }
 
 #player-info {
@@ -52,29 +52,20 @@ body, html {
 }
 
 #new-game {
-    display: block;
     position: absolute;
-    height: 90px;
-    top: 50%;
-    left: 0;
-    width: 100%;
-}
-
-#new-game {
-    display: block;
-    position: absolute;
-    top: 50%;
+    top: 40%;
     left: 0;
     width: 100%;
     height: 100px;
     z-index: 10;
 }
 
-#reload {
+button[title=reload]{
     display:block;
-    margin: 0 auto;
+    margin: 0 auto 50px;
     font-size: 70px;
-    width: 370px;
+    text-align: center;
+    width: 420px;
     font-family: Edwardian script, sans-serif;
     border: 2px solid black;
     border-radius: 20px;
