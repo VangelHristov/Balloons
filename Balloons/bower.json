@@ -1,0 +1,19 @@
+{
+  "name": "Balloons",
+  "authors": [
+    "Vangel Hristov <vangel_2006@yahoo.com>"
+  ],
+  "description": "game",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    ".idea",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "KineticJS": "kineticjs#^5.1.0"
+  }
+}
